@@ -203,11 +203,11 @@ def getDeviceCommands(){
         mch_stero:    [command: "MCH STEREO",    name: "Multi-Channel Stereo", val: false, delay: 1],
         dolby_surround:[command: "DOLBY SURROUND", name: "Dolby Surround",     val: false, delay: 1],
         dolby_atmos:  [command: "DOLBY ATMOS",   name: "Dolby Atmos",          val: false, delay: 1],
-        dolby_d+:     [command: "DOLBY D+",      name: "Dolby D+",             val: false, delay: 1],
-        dolby_d+ds:   [command: "DOLBY D+DS",    name: "Dolby D+DS",           val: false, delay: 1],
+        dolby_dplus:  [command: "DOLBY D+",      name: "Dolby D+",             val: false, delay: 1],
+        dolby_dplusds:[command: "DOLBY D+DS",    name: "Dolby D+DS",           val: false, delay: 1],
         dts_discrete: [command: "DTS ES DSCRT6.1", name: "DTS ES Discrete",    val: false, delay: 1],
         dts_matrix:   [command: "DTS ES MTRX6.1", name: "DTS ES Matrix",       val: false, delay: 1],
-        dts_neural-x: [command: "DTS+NEURAL:X",  name: "DTS Neural X",         val: false, delay: 1],
+        dts_neural_x: [command: "DTS+NEURAL:X",  name: "DTS Neural X",         val: false, delay: 1],
         auto:         [command: "AUTO",          name: "Auto",                 val: false, delay: 1],
     ]; 
     
