@@ -189,6 +189,7 @@ def getDeviceCommands(){
 
     ];
 
+    // audio modes
     command_mode = [
         movie:        [command: "MOVIE",         name: "Movie",                val: false, delay: 1],
         music:        [command: "MUSIC",         name: "Music",                val: false, delay: 1], 
@@ -196,17 +197,25 @@ def getDeviceCommands(){
         direct:       [command: "DIRECT",        name: "Direct",               val: false, delay: 1],
         pure_direct:  [command: "PURE DIRECT",   name: "Pure Direct",          val: false, delay: 1],
         stereo:       [command: "STEREO",        name: "Stereo",               val: false, delay: 1],
-        standard:     [command: "STANDARD",      name: "Standard",             val: false, delay: 1],
+//        standard:     [command: "STANDARD",      name: "Standard",             val: false, delay: 1],
         dolby_digital:[command: "DOLBY DIGITAL", name: "Dolby Digital",        val: false, delay: 1],
         dts_surround: [command: "DTS SUROUND",   name: "DTS Surround Sound",   val: false, delay: 1],
         mch_stero:    [command: "MCH STEREO",    name: "Multi-Channel Stereo", val: false, delay: 1],
+        dolby_surround:[command: "DOLBY SURROUND", name: "Dolby Surround",     val: false, delay: 1],
+        dolby_atmos:  [command: "DOLBY ATMOS",   name: "Dolby Atmos",          val: false, delay: 1],
+        dolby_d+:     [command: "DOLBY D+",      name: "Dolby D+",             val: false, delay: 1],
+        dolby_d+ds:   [command: "DOLBY D+DS",    name: "Dolby D+DS",           val: false, delay: 1],
+        dts_discrete: [command: "DTS ES DSCRT6.1", name: "DTS ES Discrete",    val: false, delay: 1],
+        dts_matrix:   [command: "DTS ES MTRX6.1", name: "DTS ES Matrix",       val: false, delay: 1],
+        dts_neural-x: [command: "DTS+NEURAL:X",  name: "DTS Neural X",         val: false, delay: 1],
+        auto:         [command: "AUTO",          name: "Auto",                 val: false, delay: 1],
     ]; 
     
     command_audyssey = [
         audyssey:     [command: "AUDYSSEY",         name: "On",                         val: false, delay: 1],   
         byp_lr:       [command: "BYP.LR",           name: "Bypass",                     val: false, delay: 1],
         flat:         [command: "FLAT",             name: "Flat",                       val: false, delay: 1],
-        manual:       [command: "MANUAL",           name: "Manual",                     val: false, delay: 1],
+//        manual:       [command: "MANUAL",           name: "Manual",                     val: false, delay: 1],
         off:          [command: "OFF",              name: "Off",                        val: false, delay: 1],
     ];
     
