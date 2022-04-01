@@ -10,7 +10,8 @@ metadata {
     
     definition(name: NAME, namespace: NAME_SPACE, author: "Thomas Howard") {        
         capability "Refresh"
-		capability "Actuator"
+	capability "Actuator"
+	capability "Initialize"
           
         deviceSetup(TYPE); 
         if (device) {
@@ -477,7 +478,7 @@ def updated(){
     setupInputs();
 }
 
-def initialized(){
+def initialize(){
     log.debug("Initialized"); 
     updated();
 }
